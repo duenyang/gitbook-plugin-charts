@@ -2,13 +2,13 @@
 
 {% block head %}
     {{ super() }}
-    {% if config.pluginsConfig.echarts.type == 'echarts' %}
-    <script src="{{ 'gitbook-plugin-echarts/echarts/echarts.common.min.js'|resolveAsset }}"></script>
-    {% elif config.pluginsConfig.echarts.type == 'highcharts' %}
-    <script src="{{ 'gitbook-plugin-echarts/highcharts/highcharts.js'|resolveAsset }}"></script>
+    {% if config.pluginsConfig.charts.type == 'charts' %}
+    <script src="{{ 'gitbook-plugin-charts/echarts/echarts.common.min.js'|resolveAsset }}"></script>
+    {% elif config.pluginsConfig.charts.type == 'highcharts' %}
+    <script src="{{ 'gitbook-plugin-charts/highcharts/highcharts.js'|resolveAsset }}"></script>
     {% else %}
-    <link rel="stylesheet" href="{{ 'gitbook-plugin-echarts/c3/c3.min.css'|resolveAsset }}">
-    <script src="{{ 'gitbook-plugin-echarts/c3/d3.min.js'|resolveAsset }}"></script>
-    <script src="{{ 'gitbook-plugin-echarts/c3/c3.min.js'|resolveAsset }}"></script>
+    <link rel="stylesheet" href="{{ 'gitbook-plugin-charts/c3/c3.min.css'|resolveAsset }}">
+    <script src="{{ 'gitbook-plugin-charts/c3/d3.min.js'|resolveAsset }}"></script>
+    <script src="{{ 'gitbook-plugin-charts/c3/c3.min.js'|resolveAsset }}"></script>
     {% endif %}
 {% endblock %}

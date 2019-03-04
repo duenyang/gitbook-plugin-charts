@@ -45,7 +45,7 @@ module.exports = {
   },
   hooks: {
     init: function init() {
-      var _this$config$get = this.config.get('pluginsConfig.echarts'),
+      var _this$config$get = this.config.get('pluginsConfig.charts'),
           type = _this$config$get.type;
 
       chartScriptFn = chartFns[type];

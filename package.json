@@ -1,8 +1,13 @@
 {
-  "name": "gitbook-plugin-echarts",
+  "name": "gitbook-plugin-charts",
   "version": "0.0.1",
   "description": "This is my first GitBook plugin",
-  "author": "duenyang@jd.com",
+  "author": "DU EN YANG",
+  "email" : "377153400@qq.com",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/duenyang/gitbook-plugin-charts.git"
+  },
   "engines": {
       "gitbook": ">2.x.x"
   }
