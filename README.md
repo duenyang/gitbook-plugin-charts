@@ -1,6 +1,6 @@
 ### gitbook-plugin-charts
 
-    在gitbook中使用图表插件，目前支持`echarts`
+在gitbook中使用图表插件，目前支持`echarts`
 
 ### 使用
 
