@@ -1,0 +1,9 @@
+{
+  "name": "gitbook-plugin-echarts",
+  "version": "0.0.1",
+  "description": "This is my first GitBook plugin",
+  "author": "duenyang@jd.com",
+  "engines": {
+      "gitbook": ">2.x.x"
+  }
+}
