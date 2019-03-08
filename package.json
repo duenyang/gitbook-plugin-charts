@@ -1,13 +1,15 @@
 {
   "name": "gitbook-plugin-charts",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "This is gitbook plugin charts",
   "author": "DU EN YANG",
   "email" : "377153400@qq.com",
+  "license": "MIT",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/duenyang/gitbook-plugin-charts.git"
   },
+  "private": false,
   "engines": {
       "gitbook": ">2.x.x"
   }
