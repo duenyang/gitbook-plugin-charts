@@ -2,7 +2,7 @@
 
 {% block head %}
     {{ super() }}
-    {% if config.pluginsConfig.charts.type == 'charts' %}
+    {% if config.pluginsConfig.charts.type == 'echarts' %}
     <script src="{{ 'gitbook-plugin-charts/echarts/echarts.common.min.js'|resolveAsset }}"></script>
     {% elif config.pluginsConfig.charts.type == 'highcharts' %}
     <script src="{{ 'gitbook-plugin-charts/highcharts/highcharts.js'|resolveAsset }}"></script>

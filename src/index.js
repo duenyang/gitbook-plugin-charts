@@ -10,7 +10,7 @@ module.exports = {
     },
     hooks: {
         init: function () {
-            const { type } = this.config.get('pluginsConfig.chart');
+            const { type } = this.config.get('pluginsConfig.charts');
             chartScriptFn = chartFns[type];
         }
     },
