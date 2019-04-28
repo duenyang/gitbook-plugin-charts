@@ -3,7 +3,9 @@
 {% block head %}
     {{ super() }}
     {% if config.pluginsConfig.charts.type == 'echarts' %}
-    <script src="{{ 'gitbook-plugin-charts/echarts/echarts.common.min.js'|resolveAsset }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/extension/bmap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/extension/dataTool.min.js"></script>
     {% elif config.pluginsConfig.charts.type == 'highcharts' %}
     <script src="{{ 'gitbook-plugin-charts/highcharts/highcharts.js'|resolveAsset }}"></script>
     {% else %}
